@@ -4,7 +4,7 @@ Scripts that I generally used and make my life easier.
 
 ## Create a slurm script
 
-Use [this]('scripts/make_slurm_script.py') Python script to create a slurm script.
+Use [this](scripts/make_slurm_script.py) Python script to create a slurm script.
 
 Usage:
 
