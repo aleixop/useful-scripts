@@ -63,6 +63,8 @@ array_num_jobs() {
 }
 ```
 
+Usage: `array_num_job <job_id> <number_of_simultaneous_jobs>`
+
 ### Tally
 
 Count unique values in a single column.
