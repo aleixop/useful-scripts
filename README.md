@@ -63,7 +63,7 @@ array_num_jobs() {
 }
 ```
 
-### Tally
+### Tally
 
 Count unique values in a single column.
 
