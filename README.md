@@ -35,3 +35,38 @@ optional arguments:
   -M MODULES, --modules MODULES
                         modules that need to be loaded, separated ','
 ```
+
+## Aliases and bash functions
+
+Copy them to your `.bashrc` file.
+
+### Create a directory structure for a new project
+
+```
+alias makeproject='mkdir -p data/logs scripts analysis; touch README.md'
+
+```
+It creates the following structure:
+```
+analysis/
+data/
+ |_ logs/
+scripts/
+README.md
+```
+
+### Change the number of jobs in an array
+
+```
+array_num_jobs() {
+    scontrol update JobId=$1 ArrayTaskThrottle=$2
+}
+```
+
+### Tally
+
+Count unique values in a single column.
+
+```
+alias tally='sort | uniq -c | sort -nrk1,1'
+```
